@@ -44,9 +44,23 @@ py manage.py createsuperuser
     also be deleted and other 2 will be their
 - If user click on purchase button without having products in their cart, then website will ask to add product in cart first.
 
+## ONE CLICK RUN
+
+```
+docker build -t ecommerce 
+docker run -it -p 8000:8000 ecommerce
+```
+
+go to http://localhost:8000
+
+- user: admin
+- password: changeme
 
 
 ## HOW TO RUN THIS PROJECT
+
+These steps is for people with time :)
+
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
 ```
